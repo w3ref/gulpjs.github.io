@@ -4,8 +4,8 @@
   <ShortName>gulp.js</ShortName>
   <Description>Search gulp.js</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://gulpjs.com/img/favicon.png</Image>
-  <Url type="text/html" method="get" template="https://gulpjs.com//search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://gulpjs.com//opensearch.xml" />
-  <moz:SearchForm>https://gulpjs.com/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://gulpjs.su/img/favicon.png</Image>
+  <Url type="text/html" method="get" template="https://gulpjs.su//search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://gulpjs.su//opensearch.xml" />
+  <moz:SearchForm>https://gulpjs.su/</moz:SearchForm>
 </OpenSearchDescription>
