@@ -123,9 +123,6 @@ module.exports = {
       indexName: 'gulpjs',
       algoliaOptions: {} // Optional, if provided by Algolia
     },
-    googleAnalytics: {
-      trackingID: 'G-VFG3C1M4P1',
-    },
     gtag: {
       trackingID: 'GTM-M5SLS2N',
     },
@@ -214,7 +211,6 @@ module.exports = {
     }],
     ['docusaurus-plugin-sass', {}],
     ['@docusaurus/plugin-content-pages', {}],
-    isProd && ['@docusaurus/plugin-google-analytics', {}],
     isProd && ['@docusaurus/plugin-google-gtag', {}],
     isProd && ['@docusaurus/plugin-sitemap', {}],
   ]
