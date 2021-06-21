@@ -10,10 +10,10 @@
       "getting-started/using-plugins",
       "getting-started/watching-files"
     ],
-    "Advanced": [
+    "Продвинутый": [
       "advanced/creating-custom-registries"
     ],
-    "Recipes": [
+    "Рецепты": [
       "recipes/automate-releases"
     ],
     "API": [
@@ -32,7 +32,7 @@
       "api/vinyl-isvinyl",
       "api/vinyl-iscustomprop"
     ],
-    "Support": [
+    "Поддержка": [
       "support/for-enterprise"
     ]
   }
