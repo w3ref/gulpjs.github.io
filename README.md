@@ -1,49 +1,50 @@
-# gulpjs.com
+# gulpjs.com | gulpjs.su
 
-This is the repository containing the code for the official gulp website [gulpjs.com](https://gulpjs.com).
+Это репозиторий, содержащий код официального сайта gulp [gulpjs.com](https://gulpjs.com) и его не официального перевода [gulpjs.su](https://gulpjs.su).
 
-![A screenshot of gulpjs.com](screenshot.png)
+![Скриншот gulpjs.com](screenshot.png)
 
-## Contributing
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+## Содействие
 
-### Getting started
+Этот веб-сайт создан с использованием [Docusaurus 2](https://v2.docusaurus.io/), современного генератора статических веб-сайтов.
 
-To get started working on this site you first need to clone this repository
+### Начало работы
+
+Чтобы начать работу над этим сайтом, вам сначала нужно клонировать этот репозиторий.
 
 ```
 $ git clone git://github.com/gulpjs/gulpjs.github.io
 ```
 
-When you are done making your improvements, create a [Pull Request](https://github.com/gulpjs/gulpjs.github.io/compare).
+Когда вы закончите вносить улучшения, создайте [Pull Request](https://github.com/gulpjs/gulpjs.github.io/compare).
 
-### Installation
+### Установка
 
 ```
 $ npm install
 ```
 
-### Local Development
+### Локальная разработка
 
 ```
 $ npm start
 ```
 
-This command will first pull down the markdown documentation from the main gulp repository, then starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Эта команда сначала загрузит документацию в маркдаун из основного репозитория gulp, затем запустит локальный сервер разработки и откроет окно браузера. Большинство изменений отражаются в реальном времени без перезапуска сервера.
 
-### Build
+### Сборка
 
 ```
 $ npm build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Эта команда генерирует статический контент в каталог `build` и может обслуживаться с помощью любой службы хостинга статического контента.
 
-## Thanks
+## Благодарности
 
-Many thanks are owed for this website!
+Большое спасибо за этот сайт!
 
-* The very talented [@vaninawohlleb](https://github.com/vaninawohlleb) for the website design
-* All the content work by [@janiceilene](https://github.com/janiceilene)
-* Code screenshots from [Carbon](https://github.com/carbon-app/carbon)
-* [Docusaurus](https://v2.docusaurus.io/) for the entire framework
+* Очень талантливый [@vaninawohlleb](https://github.com/vaninawohlleb) в дизайне веб-сайтов
+* Весь контент разработан [@janiceilene](https://github.com/janiceilene)
+* Скриншоты кода из [Carbon](https://github.com/carbon-app/carbon)
+* [Docusaurus](https://v2.docusaurus.io/) для всего фреймворка
