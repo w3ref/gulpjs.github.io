@@ -7,10 +7,14 @@ module.exports = {
   favicon: 'img/favicon.png',
   url: 'https://gulpjs.su/',
   baseUrl: '/',
-  tagline: 'A toolkit to automate & enhance your workflow',
+  tagline: 'Набор инструментов для автоматизации и улучшения рабочего процесса',
   // Used by the deployment
-  organizationName: 'gulpjs',
+  organizationName: 'w3ref',
   projectName: 'gulpjs.github.io',
+  i18n: {
+    defaultLocale: 'ru',
+    locales: ['ru']
+  },
   // The theme
   themeConfig: {
     colorMode: {
@@ -26,35 +30,35 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/en/getting-started/quick-start',
-          label: 'Get Started',
+          to: 'docs/ru/getting-started/quick-start',
+          label: 'Начать',
           position: 'left',
         },
         {
-          to: 'docs/en/api/concepts',
+          to: 'docs/ru/api/concepts',
           label: 'API',
           position: 'left',
         },
         {
           to: 'plugins',
-          label: 'Plugins',
+          label: 'Плагины',
           position: 'left',
         },
         {
           href: 'https://github.com/sponsors/gulpjs',
-          label: 'Donate',
+          label: 'Пожертвовать',
           position: 'left',
         },
         {
-          to: 'docs/en/support/for-enterprise',
-          label: 'Enterprise',
+          to: 'docs/ru/support/for-enterprise',
+          label: 'Энтерпрайз',
           position: 'left',
           emphasis: true,
         },
         {
           href: 'https://twitter.com/gulpjs',
           logo: {
-            alt: 'Gulp on Twitter',
+            alt: 'Gulp в Twitter',
             src: 'img/twitter.svg',
           },
           position: 'right'
@@ -62,7 +66,7 @@ module.exports = {
         {
           href: 'https://medium.com/gulpjs',
           logo: {
-            alt: 'The gulp blog',
+            alt: 'Блог gulp',
             src: 'img/medium.svg',
           },
           position: 'right'
@@ -77,20 +81,20 @@ module.exports = {
           ]
         },
         {
-          title: 'Docs',
+          title: 'Документация',
           items: [
             {
-              to: 'docs/en/getting-started/quick-start',
-              label: 'Getting Started',
+              to: 'docs/ru/getting-started/quick-start',
+              label: 'Начало работы',
             },
             {
-              to: 'docs/en/api/concepts',
+              to: 'docs/ru/api/concepts',
               label: 'API',
             },
           ]
         },
         {
-          title: 'Community',
+          title: 'Сообщество',
           items: [
             {
               href: 'https://github.com/gulpjs/gulp',
@@ -119,11 +123,8 @@ module.exports = {
       indexName: 'gulpjs',
       algoliaOptions: {} // Optional, if provided by Algolia
     },
-    googleAnalytics: {
-      trackingID: 'UA-128126650-1',
-    },
     gtag: {
-      trackingID: 'UA-128126650-1',
+      trackingID: 'GTM-M5SLS2N',
     },
     companyLogos: [
       {
@@ -206,7 +207,7 @@ module.exports = {
       sidebarPath: require.resolve('./sidebars.json'),
       // This is a holdover because we set up original docusaurus
       // to support translations and v2 doesn't support them yet
-      routeBasePath: 'docs/en/',
+      routeBasePath: 'docs/ru/',
     }],
     ['docusaurus-plugin-sass', {}],
     ['@docusaurus/plugin-content-pages', {}],
