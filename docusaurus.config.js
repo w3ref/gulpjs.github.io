@@ -97,6 +97,10 @@ module.exports = {
           title: 'Сообщество',
           items: [
             {
+              href: 'https://github.com/w3ref/gulp',
+              label: 'Перевод на GitHub',
+            },
+            {
               href: 'https://github.com/gulpjs/gulp',
               label: 'GitHub',
             },
