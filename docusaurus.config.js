@@ -123,6 +123,9 @@ module.exports = {
       indexName: 'gulpjs',
       algoliaOptions: {} // Optional, if provided by Algolia
     },
+    googleAnalytics: {
+      trackingID: 'G-VFG3C1M4P1',
+    },
     gtag: {
       trackingID: 'GTM-M5SLS2N',
     },
