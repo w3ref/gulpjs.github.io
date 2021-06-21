@@ -8,39 +8,39 @@ const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.heroContent}>
-        <h1 className={styles.heroTagline}>A toolkit to automate &amp; enhance your workflow</h1>
+        <h1 className={styles.heroTagline}>Набор инструментов для автоматизации, &amp; улучшающий ваш рабочий процесс</h1>
         <p className={styles.heroDescription}>
-          Leverage gulp and the flexibility of JavaScript to automate slow, repetitive workflows and compose them into efficient build pipelines.
+          Используйте gulp и гибкость JavaScript, чтобы автоматизировать медленные, повторяющиеся рабочие процессы и объединить их в эффективные конвейеры сборки.
         </p>
       </div>
       <div className={styles.heroVisual}>
         <ul className={styles.techList}>
           <li className={styles.techItem}>
             <span className={styles.techName}>TypeScript</span>
-            <span>Develop in any language</span>
+            <span>Разрабатывайте на любом языке</span>
           </li>
           <li className={styles.techItem}>
             <span className={styles.techName}>PNG</span>
-            <span>Create assets with any tool</span>
+            <span>Создавайте ресурсы с помощью любого инструмента</span>
           </li>
           <li className={styles.techItem}>
             <span className={styles.techName}>Markdown</span>
-            <span>Write using any format</span>
+            <span>Пишите в любом формате</span>
           </li>
         </ul>
         <Svg />
         <ul className={styles.techList}>
           <li className={styles.techItem}>
             <span className={styles.techName}>JavaScript</span>
-            <span>Get compiled code</span>
+            <span>Получите скомпилированный код</span>
           </li>
           <li className={styles.techItem}>
             <span className={styles.techName}>WebP</span>
-            <span>Get optimized images</span>
+            <span>Получите оптимизированные изображения</span>
           </li>
           <li className={styles.techItem}>
             <span className={styles.techName}>HTML</span>
-            <span>Get rendered content</span>
+            <span>Получите визуализированный контент</span>
           </li>
         </ul>
       </div>

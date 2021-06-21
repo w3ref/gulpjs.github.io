@@ -16,11 +16,11 @@ function BenefitSection(props) {
           />
         </div>
         <div className="card__header">
-          <h2>Flexible</h2>
+          <h2>Гибкий</h2>
         </div>
         <div className="card__body">
           <p>
-            Using code over configuration, utilize all of JavaScript to create your gulpfile—where tasks can be written using your own code or chained single purpose plugins.
+            Используя код вместо конфигурации, используйте весь JavaScript для создания вашего gulpfile, где задачи могут быть написаны с использованием вашего собственного кода или связанных одноцелевых подключаемых модулей.
           </p>
         </div>
       </div>
@@ -32,11 +32,11 @@ function BenefitSection(props) {
           />
         </div>
         <div className="card__header">
-          <h2>Composable</h2>
+          <h2>Сборный</h2>
         </div>
         <div className="card__body">
           <p>
-            Write individual, focused tasks and compose them into larger operations, providing you with speed and accuracy while reducing repetition.
+            Напишите отдельные целенаправленные задачи и объедините их в более крупные операции, что обеспечит вам скорость и точность, уменьшив повторение.
           </p>
         </div>
       </div>
@@ -48,11 +48,11 @@ function BenefitSection(props) {
           />
         </div>
         <div className="card__header">
-          <h2>Efficient</h2>
+          <h2>Эффективный</h2>
         </div>
         <div className="card__body">
           <p>
-            By using gulp streams, you can apply many transformations to your files while in memory before anything is written to the disk—significantly speeding up your build process.
+            Используя потоки gulp, вы можете применять множество преобразований к файлам, находящимся в памяти, прежде чем что-либо будет записано на диск, что значительно ускоряет процесс сборки.
           </p>
         </div>
       </div>

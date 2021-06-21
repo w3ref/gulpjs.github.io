@@ -42,8 +42,8 @@ function CompaniesBanner() {
         </BrowserOnly>
       </ul>
       <ExternalLink href="https://github.com/sponsors/gulpjs?tier_id=24682" className={styles.supportButton}>
-        <span className={styles.supportTitle}>Organization Support</span>
-        <span className={styles.supportDescription}>Provide gulp with ongoing support and we’ll let our users know!</span>
+        <span className={styles.supportTitle}>Поддержка организации</span>
+        <span className={styles.supportDescription}>Обеспечьте постоянную поддержку, и мы расскажем об этом нашим пользователям!</span>
       </ExternalLink  >
     </div>
   )

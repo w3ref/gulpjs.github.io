@@ -9,12 +9,12 @@ function PluginSection() {
   return (
     <div className={styles.plugins}>
       <div className={styles.pluginsText}>
-        <h2>Connecting plugins</h2>
+        <h2>Подключение плагинов</h2>
         <p>
-          Using community-built plugins is a quick way to get started with gulp. Each plugin does a small amount of work, so you can connect them like building blocks. Chain together plugins from a variety of technologies to reach your desired result.
+          Использование плагинов, созданных сообществом, - это быстрый способ начать работу с gulp. Каждый плагин выполняет небольшой объем работы, поэтому вы можете соединять их как строительные блоки. Объедините плагины из различных технологий, чтобы достичь желаемого результата.
         </p>
         <p className={styles.pluginsCTA}>
-          Browse the <Link to="plugins">community plugins</Link> to see what’s available!
+          Просмотрите <Link to="plugins">плагины сообщества</Link>, чтобы узнать, что доступно!
         </p>
       </div>
       <div className={styles.pluginsGrid}>
