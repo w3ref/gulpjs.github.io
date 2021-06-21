@@ -11,7 +11,7 @@ const download = require('github-download-directory');
 // Exports for task registration
 exports.default = series(clean, generateDocs);
 
-const owner = 'gulpjs';
+const owner = 'w3ref';
 const repo = 'gulp';
 const directory = 'docs';
 
@@ -25,7 +25,7 @@ async function clean() {
 
 async function generateDocs() {
   // Fetch
-  const files = await download.fetchFiles(owner, repo, directory, { sha: "master" });
+  const files = await download.fetchFiles(owner, repo, directory, { sha: "master-ru" });
 
   // Process
   const docusaurusFiles = files.reduce((result, {path, contents}) => {
