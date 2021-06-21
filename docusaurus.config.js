@@ -5,7 +5,7 @@ var isProd = process.env.NODE_ENV === 'production';
 module.exports = {
   title: 'gulp.js',
   favicon: 'img/favicon.png',
-  url: 'https://gulpjs.com/',
+  url: 'https://gulpjs.su/',
   baseUrl: '/',
   tagline: 'A toolkit to automate & enhance your workflow',
   // Used by the deployment
