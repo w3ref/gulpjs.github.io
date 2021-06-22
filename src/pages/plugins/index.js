@@ -119,7 +119,7 @@ function PluginComponent({ plugin }) {
       <div className="col col--10 col--offset-1">
         <div key={plugin.key} className={cardClasses}>
           <div className={cardHeaderClasses}>
-            {isDeprecated && <span className="badge badge--primary">Deprecated</span>}
+            {isDeprecated && <span className="badge badge--primary">Устарело</span>}
             <h2><a className={styles.primaryUrl} href={plugin.primaryUrl}>{plugin.name}</a></h2>
             {!isDeprecated && <span className="badge badge--primary">{plugin.version}</span>}
           </div>
@@ -145,7 +145,7 @@ function Paginate({ onPage = noop }) {
     <div className="row padding-vert--md">
       <div className="col col--4 col--offset-4">
         <button className="button button--block button--primary" onClick={onPage}>
-          Load more
+          Загрузить больше
         </button>
       </div>
     </div>
@@ -224,7 +224,7 @@ function useSearch() {
   const [isPopular, setIsPopular] = useState(true);
   const [title, setTitle] = useState(``);
   const [plugins, setPlugins] = useState([]);
-  const [placeholder, setPlaceholder] = useState(`Search`);
+  const [placeholder, setPlaceholder] = useState(`Поиск`);
   const [keywords, setKeywords] = useState(new Set());
   const [searchText, setSearchText] = useState(``);
   // Pagination stuff
@@ -236,11 +236,11 @@ function useSearch() {
     fetchPackages(keywords, searchText, pageNumber)
       .then((results) => {
         if (isPopular) {
-          setTitle(`Popular plugins`);
-          setPlaceholder(`Search ${results.total} plugins`);
+          setTitle(`Популярные плагины`);
+          setPlaceholder(`Найдено ${results.total} плагинов`);
         } else {
           const searchQuery = formatSearch(keywords, searchText);
-          setTitle(`Found ${results.total} searching for \`${searchQuery}\``);
+          setTitle(`Найдено ${results.total} результатов по запросу \`${searchQuery}\``);
         }
 
         let loadedPlugins;
@@ -313,7 +313,7 @@ function PluginsPage() {
   };
 
   return (
-    <Layout title="Plugins">
+    <Layout title="Плагины">
       <main className="container padding-vert--lg">
         <div className="row">
           <div className="col col--10 col--offset-1">
@@ -325,7 +325,7 @@ function PluginsPage() {
                 value={searchInput}
                 onChange={onChange} />
               <button className={classnames("button button--primary", styles.searchButton)}>
-                Search
+                Искать
               </button>
             </form>
           </div>
