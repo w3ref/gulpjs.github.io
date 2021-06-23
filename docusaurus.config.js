@@ -123,8 +123,8 @@ module.exports = {
       theme: require('prism-react-renderer/themes/vsDark'),
     },
     algolia: {
-      apiKey: 'a6ef919bce0b83de1bcbad1d4ef753f8',
-      indexName: 'gulpjs',
+      apiKey: 'c5e41ceb2a25d8ca84d8fbfa3f0eba94',
+      indexName: 'gulpjs-su',
       algoliaOptions: {} // Optional, if provided by Algolia
     },
     gtag: {
